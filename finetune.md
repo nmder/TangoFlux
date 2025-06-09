@@ -2,7 +2,7 @@
 
 1. We use the `accelerate` package from Hugging Face for multi-GPU training.
 2. Run `accelerate config` to setup your run configuration. The default accelerate config is in the `configs` folder.
-3. Please specify the path to your training files in the `configs/tangoflux_config.yaml`. Samples of `train.json` and `val.json` have been provided. Replace them with your own audio.
+3. Please specify the path to your training files in the `configs/tangoflux_config.yaml`. Samples of `data/train.json` and `data/val.json` have been provided. Replace them with your own audio.
 4. `configs/tangoflux_config.yaml` defines the training file paths and model hyperparameters.
 5. To finetune from the huggingface checkpoint execute `finetune.sh` or the following:
 
